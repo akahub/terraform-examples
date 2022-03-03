@@ -110,7 +110,7 @@ resource "aws_security_group" "wordpress" {
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks = ["1.2.1.1/32"]
   }
 
   ingress {
